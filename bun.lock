@@ -3,7 +3,7 @@
   "configVersion": 0,
   "workspaces": {
     "": {
-      "name": "ifs24010-pabwe2026-reactjs",
+      "name": "ifs24001-pabwe2026-reactjs",
       "dependencies": {
         "@fontsource-variable/manrope": "^5.3.0",
         "@fontsource-variable/sora": "^5.3.0",
