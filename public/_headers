@@ -1,2 +1,7 @@
-   /assets/*
-     Cache-Control: no-store, must-revalidate
+# Khusus halaman HTML dan root agar selalu mengembalikan HTTP 200 OK
+/*
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+
+# Khusus file static assets (JS, CSS, Gambar) yang ber-hash
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
